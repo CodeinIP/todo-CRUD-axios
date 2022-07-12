@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=412&q=80);
+  padding: 20px;
+  box-sizing: border-box;
+  height: 95vh;
+  /* width: 100vw; */
+}
+.addTodoDiv {
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px 20px;
+}
+.addTodoDiv input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid orange;
+  margin: auto 5px;
+  font-size: 15px;
+  color: gray;
+  text-transform: capitalize;
+}
+.addTodoDiv button {
+  border: none;
+  outline: none;
+  padding: 2px 10px;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+.todoListDiv {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 400px;
+  overflow-y: scroll;
+}
+.todoListDiv::-webkit-scrollbar {
+  display: none;
+}
+.todoItemDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.statusBtn {
+  border: none;
+  color: orange;
+  background: none;
+  cursor: pointer;
+}
+.deleteBtn {
+  border: none;
+  color: red;
+  background: lightgray;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.loadingDiv,
+.emptyTodos h4 {
+  color: white;
+}
+.errorDiv {
+  color: orangered;
+}
+.taskDone {
+  color: gray;
+  text-decoration: line-through;
+}
+.editBtn {
+  border: none;
+  background: none;
+}
